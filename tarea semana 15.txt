@@ -1,0 +1,65 @@
+ 
+Tarea práctica
+Colecciones de datos: listas, conjuntos y diccionarios
+Contexto y objetivo de la tarea
+Aplicar el uso de colecciones de datos mediante el desarrollo de un programa sencillo que permita almacenar, organizar y mostrar información utilizando estructuras como listas, conjuntos o diccionarios para resolver un problema de la vida real.
+
+ 
+Actividad a desarrollar
+Cada estudiante deberá desarrollar un programa que utilice colecciones de datos para resolver un problema sencillo de la vida real. El programa debe trabajar con al menos una de las siguientes estructuras: lista, conjunto o diccionario.
+
+Ejemplos de problemas que pueden utilizar:
+
+Registrar nombres de estudiantes en una lista.
+Guardar frutas sin repetir usando un conjunto.
+Relacionar nombres de estudiantes con sus notas mediante un diccionario.
+Registrar productos de una tienda.
+Guardar contactos con nombre y número telefónico.
+Parámetros de entrega
+ 
+Formato de entrega
+Enlace de GitHub
+ 
+Extensión
+1 archivo de código de programa
+ 
+Fecha de entrega
+Según calendario Moodle
+Instrucciones para desarrollar la tarea
+Selecciona un problema sencillo de la vida real para resolver con programación.
+Implementa la creación de al menos una colección de datos (lista, conjunto o diccionario).
+Agrega la funcionalidad para insertar/agregar datos a la colección.
+Muestra de forma clara la información almacenada en pantalla.
+Incluye al menos una operación básica adicional sobre los datos (como eliminar, buscar o recorrer elementos).
+Publica el archivo del programa en un repositorio de GitHub.
+Producto esperado
+El estudiante debe entregar únicamente un enlace que dirija al repositorio público de GitHub donde se encuentre publicado el archivo de código fuente del programa.
+
+Ejemplo de enlace esperado: github.com/usuario/ejercicio-colecciones
+Recomendaciones
+Asegúrate de que el repositorio en GitHub sea público para que pueda ser revisado por el docente.
+Escribe un código organizado y comenta las secciones principales de tu programa.
+Prueba tu código antes de subirlo para asegurarte de que ejecute sin errores.
+Verifica que el enlace enviado funcione correctamente y que la entrega se realice dentro del plazo establecido en la plataforma.
+Criterios de evaluación
+Criterio	Descripción	Puntaje
+Uso de colecciones	Aplica correctamente al menos una estructura de datos (lista, conjunto o diccionario) adaptada al problema.	3.0 pts
+Funcionalidad del programa	Permite agregar, mostrar y realizar al menos una operación adicional (buscar, eliminar o recorrer) sobre los datos.	4.0 pts
+Publicación en GitHub	El repositorio está público, accesible y contiene el archivo de programa con el código fuente.	3.0 pts
+Total	10.0 pts
+Una vez finalizado el ejercicio, pegue el enlace de su repositorio GitHub en el espacio de entrega habilitado en Moodle.
+Estado de la entrega
+Estado de la entrega
+Número del intento	Este es el intento 1.
+
+
+
+
+repo a subir 
+echo "# ejercicio-colecciones" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Groe21/ejercicio-colecciones.git
+git push -u origin main
