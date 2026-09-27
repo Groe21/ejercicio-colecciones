@@ -32,11 +32,11 @@ El archivo se organiza en funciones:
 - `agregar_producto()` — inserta datos en las tres colecciones.
 - `mostrar_productos()` — recorre la lista y muestra el diccionario.
 - `mostrar_categorias()` — muestra el conjunto de categorías.
-- `buscar_producto()` — operación de búsqueda en el diccionario.
+- `buscar_producto()` — busca un producto en el diccionario.
 - `eliminar_producto()` — elimina del diccionario y de la lista.
-- `recorrer_productos()` — recorre la colección y acumula el valor total.
-- `salir()` — finaliza el programa.
-- `main()` — contiene el menú principal y el bucle `while`.
+- `recorrer_productos()` — recorre la lista y acumula el valor total.
+
+El menú principal se encuentra en el bloque `if __name__ == "__main__":`.
 
 ## Cómo ejecutar
 
@@ -59,16 +59,16 @@ Ingrese una opcion: 1
 Nombre del producto: Arroz
 Precio del producto: 3.50
 Categoria del producto: Alimentos
-Producto Arroz agregado con exito. Precio: 3.5
+Producto Arroz agregado. Precio: 3.5
 
 Ingrese una opcion: 2
 --- INVENTARIO DE LA TIENDA ---
 1 )  Arroz  - $ 3.5
-Total de productos registrados: 1
+Total de productos: 1
 
---- CATEGORIAS REGISTRADAS ---
+--- CATEGORIAS ---
 - Alimentos
-Cantidad de categorias: 1
+Total de categorias: 1
 ```
 
 ## Repositorio
